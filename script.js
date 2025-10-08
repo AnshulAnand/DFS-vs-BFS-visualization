@@ -11,12 +11,12 @@ createGrid()
 function createGrid() {
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < N; j++) {
-      let div1 = document.createElement('div1')
+      let div1 = document.createElement('div')
       div1.id = `DFS_R${i}C${j}`
       div1.style.background = 'aqua'
       div1.style.border = '0.1px solid darkblue'
       grid1.appendChild(div1)
-      let div2 = document.createElement('div2')
+      let div2 = document.createElement('div')
       div2.id = `BFS_R${i}C${j}`
       div2.style.background = 'aqua'
       div2.style.border = '0.1px solid darkblue'
